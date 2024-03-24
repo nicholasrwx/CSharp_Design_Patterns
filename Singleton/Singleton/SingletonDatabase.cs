@@ -3,12 +3,15 @@ using MoreLinq;
 public class SingletonDatabase : IDatabase
 {
     private Dictionary<string, int> capitals;
+    private static int instanceCount;
+    public static int Count => instanceCount;
 
     private SingletonDatabase()
     {
+        instanceCount++;
         Console.WriteLine("Initializing Database");
-
-        capitals = File.ReadAllLines("capitals.txt")
+        const string fileLocation = @"C:\Code\GangOfFourPatterns\Singleton\Singleton\capitals.txt";
+        capitals = File.ReadAllLines(fileLocation)
             .Batch(2)
             .ToDictionary(
                 list => list.ElementAt(0).Trim(),
