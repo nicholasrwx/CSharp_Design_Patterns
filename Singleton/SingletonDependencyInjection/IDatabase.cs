@@ -1,4 +1,7 @@
-public interface IDatabase
+namespace SingletonDependencyInjection
 {
-	int GetPopulation(string name);
+    public interface IDatabase
+    {
+        int GetPopulation(string name);
+    }
 }

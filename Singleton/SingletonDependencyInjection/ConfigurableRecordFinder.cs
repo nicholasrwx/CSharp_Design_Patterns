@@ -1,14 +1,15 @@
-public class ConfigurableRecordFinder
+namespace SingletonDependencyInjection
 {
-    private IDatabase database;
 
-    public ConfigurableRecordFinder(IDatabase database)
+    // This allows you to pass in a singleton database or a dummy database
+    public class ConfigurableRecordFinder(IDatabase database)
     {
-        if (database == null)
-        {
-            throw new ArgumentNullException(paramName: nameof(database))
-        }
+        private readonly IDatabase _database = database ?? throw new ArgumentNullException(paramName: nameof(database));
 
-        this.database = database;
+        // Sums up the total population for a list of cities that exist in the database
+        public int GetTotalPopulation(IEnumerable<string> names)
+        {
+            return names.Sum(name => _database.GetPopulation(name));
+        }
     }
 }
