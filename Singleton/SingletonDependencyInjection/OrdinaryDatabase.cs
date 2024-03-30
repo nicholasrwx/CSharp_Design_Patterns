@@ -2,14 +2,12 @@ using MoreLinq;
 
 namespace SingletonDependencyInjection
 {
-    public class SingletonDatabase : IDatabase
+    public class OrdinaryDatabase : IDatabase
     {
         private readonly Dictionary<string, int> _capitals;
-        public static int Count { get; private set; }
 
-        private SingletonDatabase()
+        public OrdinaryDatabase()
         {
-            Count++;
             Console.WriteLine("Initializing Database");
             const string fileLocation = @"C:\Code\GangOfFourPatterns\Singleton\SingletonDependencyInjection\capitals.txt";
             _capitals = File.ReadAllLines(fileLocation)
@@ -23,10 +21,5 @@ namespace SingletonDependencyInjection
         {
             return _capitals[name];
         }
-
-        // Lazy loads the singleton ( Creates at time of access ) when it is needed
-        private static readonly Lazy<SingletonDatabase> instance = new(() => new SingletonDatabase());
-
-        public static SingletonDatabase Instance => instance.Value;
     }
 }
