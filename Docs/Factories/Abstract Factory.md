@@ -2,7 +2,7 @@
 
 The abstract factory is a class that is used to build and instantiate various different factories. It contains an enum used to instantiate all the different factories in the project and store them in a dictionary which is accessible by key using a method provided by the class. This particular factory violates the open closed principle to achieve a certain objective because when new factories are created the enum needs to be updated with the corresponding type that the factory will produce. There are other was to achieve the same goal without violating this principle, like using reflection to dynamically instantiate all the factories instead.
 
-### **Classes and objects participating in this pattern include:**
+### **Types participating in this pattern include:**
 
 - **ChowMein**
 	- An Object which represents a microwaveable food. It implements the IMicrowavedFood Interface which ensures the object contains a Consume Method. The Consume Method has a return type of void and provides commentary about the consumption of chowmein to the user.

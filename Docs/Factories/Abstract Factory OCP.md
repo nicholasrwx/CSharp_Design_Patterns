@@ -2,7 +2,7 @@
 
 The abstract factory is a class that is used to build and instantiate various different factories. This factory adheres to the open closed principle by using Reflection. Reflection is a technique used to dynamically instantiate types that are in the assembly, bind the type to an existing object, or get the type from an existing object. Reflection replaces the enum we used in the previous Abstract Factory. This allows  us to adhere to the open closed principle because we can keep the factory closed from modification yet still get the latest factory types to instantiate directly from the assembly.
 
-### **Classes and objects participating in this pattern include:**
+### **Types participating in this pattern include:**
 
 - **HotDrinkMachine**
 	- An Abstract Factory used to create factories and manage them in a dictionary via reflection. It additionally provides an interactive way of accessing factories via the command line and allows a user to select which one they would like to use.

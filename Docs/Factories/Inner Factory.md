@@ -4,7 +4,7 @@ An inner factory is a class that is contained within the object that it is going
 It generally remains on the class ( not on the instance ).
 This can be useful when you want to provide factory capabilities to build an object which has a private constructor.
 
-### **Classes and objects participating in this pattern include:**
+### **Types participating in this pattern include:**
 
 - **Sign**
 	- An object that contains values which represent a custom or premade order of signs.

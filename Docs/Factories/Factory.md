@@ -2,7 +2,7 @@
 
 A Factory is a class designed specifically for the creation / construction of another object. When there is a-lot of complex logic going into constructing an object, it makes sense to separate the construction logic from the client facing logic and values.
 
-### **Classes and objects participating in this pattern include:**
+### **Types participating in this pattern include:**
 
 - **Count**
 	- The object in which we will construct. It contains the client facing logic and values only.

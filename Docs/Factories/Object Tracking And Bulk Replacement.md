@@ -5,7 +5,7 @@ Object tracking can be done by using a factory to construct the object, create a
 
 Additionally we can bulk replace objects we are tracking by providing a reference to a wrapper class which contains the object, instead of just a reference to the object itself. This second layer of indirection allows us to find the wrapper object in memory, and replace the contained object without affecting the reference. 
 
-### **Classes and objects participating in this pattern include:**
+### **Types participating in this pattern include:**
 
 - **ITheme**
 	- Interface used for both DarkTheme and LightTheme, giving us the ability to store references to both themes within a single list.
