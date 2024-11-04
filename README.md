@@ -18,5 +18,9 @@
 - [Neural Network Composite](Docs/Composites/Neural%20Network%20Composite.md)
 - [Specification Composite](Docs/Composites/Specification%20Composite.md)
 
+- [Custom String Builder Decorator](Docs/Decorators/Custom%20String%20Builder%20Decorator.md)
+- [Adapter Decorator](Docs/Decorators/Adapter%20Decorator.md)
+- [Multiple Inheritance with Interfaces Decorator](Docs/Decorators/Multiple%20Inheritance%20with%20Interfaces%20Decorator.md)
+
 
 
