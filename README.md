@@ -23,5 +23,7 @@
 - [Multiple Inheritance with Interfaces Decorator](Docs/Decorators/Multiple%20Inheritance%20with%20Interfaces%20Decorator.md)
 - [Multiple Inheritance with Default Interfaces Decorator](Docs/Decorators/Multiple%20Inheritance%20with%20Default%20Interfaces%20Decorator.md)
 
+- [Facade](Docs/Facade/Facade.md)
 
-
+- [Repeating User Names Flyweight](Docs/Flyweights/Repeating%20User%20Names%20Flyweight.md)
+- [Text Formatting Flyweight](Docs/Flyweights/Text%20Formatting%20Flyweight.md)
