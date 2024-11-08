@@ -29,3 +29,4 @@
 - [Text Formatting Flyweight](Docs/Flyweights/Text%20Formatting%20Flyweight.md)
 
 - [Protection Proxy](Docs/Proxies/Protection%20Proxy.md)
+- [Property Proxy](Docs/Proxies/Property%20Proxy.md)
