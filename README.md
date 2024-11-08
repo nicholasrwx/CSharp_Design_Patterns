@@ -27,3 +27,5 @@
 
 - [Repeating User Names Flyweight](Docs/Flyweights/Repeating%20User%20Names%20Flyweight.md)
 - [Text Formatting Flyweight](Docs/Flyweights/Text%20Formatting%20Flyweight.md)
+
+- [Protection Proxy](Docs/Proxies/Protection%20Proxy.md)
