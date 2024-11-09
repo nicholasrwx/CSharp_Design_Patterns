@@ -30,3 +30,4 @@
 
 - [Protection Proxy](Docs/Proxies/Protection%20Proxy.md)
 - [Property Proxy](Docs/Proxies/Property%20Proxy.md)
+- [Value Proxy](Docs/Proxies/Value%20Proxy.md)
