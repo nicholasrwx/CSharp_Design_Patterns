@@ -11,6 +11,6 @@ A value proxy is a proxy type that is typically constructed over a primitive typ
 	- The PercentageExtensions Object is a Class that contains two additional Percent Overload Methods. These Methods are tasked with taking a float or an int value, dividing it by a float with a value of 100.0f, and passing the result as a param to a Percentage which stores the float value.
 
 ### Sources:
-[Design Patterns in C# and .NET - Proxies: Value Proxy](https://www.udemy.com/course/design-patterns-csharp-dotnet/)
+[Design Patterns in C# and .NET - Proxy: Value Proxy](https://www.udemy.com/course/design-patterns-csharp-dotnet/)
 
 [![image](https://github.com/nicholasrwx/GangOfFourPatterns/blob/main/Imgs/back-arrow_1f519.png)](https://github.com/nicholasrwx/GangOfFourPatterns/tree/main)
