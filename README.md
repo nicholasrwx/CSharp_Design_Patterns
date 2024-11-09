@@ -32,3 +32,4 @@
 - [Property Proxy](Docs/Proxies/Property%20Proxy.md)
 - [Value Proxy](Docs/Proxies/Value%20Proxy.md)
 - [Composite Proxy SoA/AoS](Composite%20Proxy%20(%20SoA%20-%20AoS%20).md)
+- [Composite Proxy with Array-Backed Properties](Composite%20Proxy%20(%20Array%20Backed%20Properties%20).md)
