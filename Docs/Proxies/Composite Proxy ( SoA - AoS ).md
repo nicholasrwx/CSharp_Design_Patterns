@@ -13,6 +13,6 @@ The Composite Proxy is designed to create an interface which utilizes a Structur
 - **CreatureProxy**
 	- The CreatureProxy is a struct that references individual values within the containing Objects ( Creatures ) Arrays by index. It is returned instead of the containing object when Creatures is used in a loop. This allows the user to interact with Creatures in the same manner as they would a Creature as it mimics an Array of Structures interface. 
 ### Sources:
-[Design Patterns in C# and .NET - Proxies: Composite Proxy SoA/AoS](https://www.udemy.com/course/design-patterns-csharp-dotnet/)
+[Design Patterns in C# and .NET - Proxy: Composite Proxy SoA/AoS](https://www.udemy.com/course/design-patterns-csharp-dotnet/)
 
 [![image](https://github.com/nicholasrwx/GangOfFourPatterns/blob/main/Imgs/back-arrow_1f519.png)](https://github.com/nicholasrwx/GangOfFourPatterns/tree/main)
