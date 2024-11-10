@@ -34,3 +34,4 @@
 - [Composite Proxy ( SoA/AoS )](Docs/Proxies/Composite%20Proxy%20(%20SoA%20-%20AoS%20).md)
 - [Composite Proxy ( Array Backed Properties )](Docs/Proxies/Composite%20Proxy%20(%20Array%20Backed%20Properties%20).md)
 - [Dynamic Proxy ( For Logging )](Docs/Proxies/Dynamic%20Proxy%20(%20For%20Logging%20).md)
+- [ViewModel Proxy](Docs/Proxies/ViewModel%20Proxy.md)
