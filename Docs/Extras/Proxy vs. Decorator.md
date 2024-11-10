@@ -1,0 +1,3 @@
+
+The proxy provides an identical interface, whereas the decorator provides an enhanced interface.
+The decorator, although it provides some/all functionality by way of delegating members, is specifically designed for adding extra functionality. It typically aggregates / references what it is decorating. However, the proxy doesn't have to do this. It also doesn't have to work with a materialized object, it could be overlaying an object that has not been constructed.
