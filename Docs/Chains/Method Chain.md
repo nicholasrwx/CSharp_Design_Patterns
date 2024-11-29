@@ -26,6 +26,6 @@ A Chain Of Responsibility is:
 	- The NoBonusesModifier extends CreatureModifier and contains a constructor that passes a Creature object to the base class. It also contains a single Handle override method. This override notifies the client that there will be no bonuses, and it terminates the processing of the Chain of Responsibility since it does not call the base Handle method in the CreatureModifier base class.
 
 ### Sources:
-[Design Patterns in C# and .NET - Chain Of Responsibility: Method Chain](https://www.udemy.com/course/design-patterns-csharp-dotnet/)
+[Design Patterns in C# and .NET - Chain of Responsibility: Method Chain](https://www.udemy.com/course/design-patterns-csharp-dotnet/)
 
 [![image](https://github.com/nicholasrwx/GangOfFourPatterns/blob/main/Imgs/back-arrow_1f519.png)](https://github.com/nicholasrwx/GangOfFourPatterns/tree/main)

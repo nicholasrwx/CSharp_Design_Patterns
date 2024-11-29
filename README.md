@@ -37,5 +37,7 @@
 - [Dynamic Proxy ( For Logging )](Docs/Proxies/Dynamic%20Proxy%20(%20For%20Logging%20).md)
 - [ViewModel Proxy](Docs/Proxies/ViewModel%20Proxy.md)
 - [Bit Fragmenting Proxy](Docs/Proxies/Bit%20Fragmenting%20Proxy.md)
+### Chains of Responsibility:
+- [Method Chain](Docs/Chains/Method%20Chain.md)
 ### Extras:
 - [Proxy vs. Decorator](Docs/Extras/Proxy%20vs.%20Decorator.md)
