@@ -38,6 +38,8 @@ public class BankAccountCommand : ICommand
 
   public void Undo()
   {
+    // The succeeded check is necessary because sometimes deposits may fail.
+    // Therefore you should not need to reverse it, if it did not succeed.
     if (!succeeded) return;
     switch (action)
     {
