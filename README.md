@@ -42,5 +42,6 @@
 - [Broker Chain](Docs/Chains/Broker%20Chain.md)
 ### Commands:
 - [Command](Docs/Commands/Command.md)
+- [Composite Command](Docs/Commands/Composite%20Command.md)
 ### Extras:
 - [Proxy vs. Decorator](Docs/Extras/Proxy%20vs.%20Decorator.md)
