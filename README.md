@@ -40,5 +40,7 @@
 ### Chains:
 - [Method Chain](Docs/Chains/Method%20Chain.md)
 - [Broker Chain](Docs/Chains/Broker%20Chain.md)
+### Commands:
+- [Command](Docs/Commands/Command.md)
 ### Extras:
 - [Proxy vs. Decorator](Docs/Extras/Proxy%20vs.%20Decorator.md)
