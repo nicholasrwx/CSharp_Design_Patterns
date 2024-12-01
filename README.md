@@ -44,6 +44,6 @@
 - [Command](Docs/Commands/Command.md)
 - [Composite Command](Docs/Commands/Composite%20Command.md)
 ### Interpreters:
-- [Handmade Interpreter ( Lexing )](Docs/Interpreters/Handmade%20Interpreter%20(%20Lexing%20).md)
+- [Handmade Interpreter ( Lexing and Parsing )](Docs/Interpreters/Handmade%20Interpreter%20(%20Lexing%20and%20Parsing%20).md)
 ### Extras:
 - [Proxy vs. Decorator](Docs/Extras/Proxy%20vs.%20Decorator.md)
