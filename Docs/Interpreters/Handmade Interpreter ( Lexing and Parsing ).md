@@ -5,11 +5,14 @@ Textual input needs to be processed, for example source code is textual input an
 
 **Lexer:**
 
-	The Lexer operates on individual Tokens. It is used to convert text into a desired list of tokens. Once the text is organized into the desired tokens then it can be further used to put them into something object oriented and nicely structured.
+	The Lexer operates on individual Tokens. It is used to convert text into a desired list of tokens.
+ 	Once the text is organized into the desired tokens then it can be further used
+  	to put them into something object oriented and nicely structured.
 
 **Parser:**
 
-	Used to turn interpret sequences of tokens into some sort of object oriented representation of the input and evaluate it's result.
+	Used to turn interpret sequences of tokens into some sort of object oriented representation
+ 	of the input and evaluate it's result.
 
 **Interpreter:**
 	
@@ -38,7 +41,8 @@ Textual input needs to be processed, for example source code is textual input an
 	
 - **Parse**
 	- The Parse method takes an IReadOnlyList of Tokens, cycles through every single one, and performs an operation depending on what type of token it is. It contains a BinaryOperation object, haveLHS ( Have Left Hand Side ) boolean, and a for loop which cycles through each of the tokens. Within the loop, there is a switch case statement where the token type is the switch value and the cases are different token types. When a case match happens, the corresponding parsing operation is performed for the token of the specific type ( numbers get converted and other characters get interpreted ). Additionally, it performs the mathematical operation on the current tokens, generates a subexpression, and then recursively calls the Parse method on the subexpression until it has been solved. This is how an expression is parsed and interpreted from tokens.
+
 ### Sources:
-[Design Patterns in C# and .NET - Interpreter: Handmade Interpreter ( Parsing )](https://www.udemy.com/course/design-patterns-csharp-dotnet/)
+[Design Patterns in C# and .NET - Interpreter: Handmade Interpreter ( Lexing and Parsing )](https://www.udemy.com/course/design-patterns-csharp-dotnet/)
 
 [![image](https://github.com/nicholasrwx/GangOfFourPatterns/blob/main/Imgs/back-arrow_1f519.png)](https://github.com/nicholasrwx/GangOfFourPatterns/tree/main)
