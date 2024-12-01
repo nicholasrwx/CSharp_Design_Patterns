@@ -1,4 +1,4 @@
-namespace HandmadeInterpreter;
+namespace LexingHandmadeInterpreter;
 
 public class Integer : IElement
 {

@@ -1,5 +1,4 @@
-﻿
-static List<Token> Lex(string input)
+﻿static List<Token> Lex(string input)
 {
   var result = new List<Token>();
 
