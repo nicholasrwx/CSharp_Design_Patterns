@@ -1,0 +1,12 @@
+global using System;
+global using System.Collections;
+global using System.Collections.Generic;
+global using System.Dynamic;
+global using System.Linq;
+global using System.Text;
+global using System.Windows;
+global using ImpromptuInterface;
+global using JetBrains.dotMemoryUnit;
+global using NUnit.Framework;
+global using static System.Console;
+global using ArrayBackedPropertiesIterator;

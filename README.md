@@ -47,5 +47,6 @@
 - [Handmade Interpreter ( Lexing and Parsing )](Docs/Interpreters/Handmade%20Interpreter%20(%20Lexing%20and%20Parsing%20).md)
 ### Iterators:
 - [Object Iterator](Docs/Iterators/Object%20Iterator.md)
+- [Array Backed Properties Iterator](Docs/Iterators/Array%20Backed%20Properties%20Iterator.md)
 ### Extras:
 - [Proxy vs. Decorator](Docs/Extras/Proxy%20vs.%20Decorator.md)
