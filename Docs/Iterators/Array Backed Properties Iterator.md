@@ -5,7 +5,7 @@ In this example we look at how array backed properties can serve as an item to b
 ### Types participating in this pattern include:
 
 - **Creature**
-	* The creature type implements the IEnumerable interface of type int and contains several different properties which their values are stored in an array and used to calculate a stats average. The properties are Strength, Agility, Intelligence, and AverageStat. The backing field is the length of the 3 main properties and is used by AverageState, an Indexer, and the GetEnumerator method so the array can be used in a foreach loop, property values can be accessed individually, or calculated effectively without breaking future changes.
+	* The creature type implements the IEnumerable interface of type int and contains several different properties which their values are stored in an array and used to calculate a stats average. The properties are Strength, Agility, Intelligence, and AverageStat. The backing array length is 3 which is the amount of stat properties contained in the type and is used by AverageState, an Indexer, and the GetEnumerator method so the array can be used in a foreach loop, property values can be accessed individually, or calculated effectively without breaking future changes.
 ### Sources:
 [Design Patterns in C# and .NET - Iterator: Array Backed Properties Iterator](https://www.udemy.com/course/design-patterns-csharp-dotnet/)
 
