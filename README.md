@@ -48,6 +48,8 @@
 ### Iterators:
 - [Object Iterator](Docs/Iterators/Object%20Iterator.md)
 - [Array Backed Properties Iterator](Docs/Iterators/Array%20Backed%20Properties%20Iterator.md)
+### Mediators:
+- [Chat Room Mediator](Docs/Mediators/Chat%20Room%20Mediator.md)
 ### Mementos:
 - [Memento](Docs/Mementos/Memento.md)
 - [Memento ( Undo Redo Functionality )](Docs/Mementos/Memento%20(%20Undo%20Redo%20Functionality%20).md)
