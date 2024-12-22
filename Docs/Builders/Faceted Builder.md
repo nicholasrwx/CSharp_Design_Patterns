@@ -2,7 +2,7 @@
 
 A faceted builder is a type of builder which holds a reference to the object we are building, as-well as references to multiple different sub builders which will be employed to do the work instead. This pattern is useful for configuring large objects in an organized way, and providing a fluent API to do so. Each builder is responsible for a specific set of attributes on the object.
 
-### Types participating in this pattern include:
+### Classes and objects participating in this pattern include:
 
 - **Worker**
 	* The object we wish to build, which is instantiated and contained within the worker builder class. It contains multiple parameters that can be separated into groups. Each group of parameters is handled by its respective sub builder class.

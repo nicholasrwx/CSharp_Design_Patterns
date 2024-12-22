@@ -5,7 +5,7 @@
 A stepwise builder is a builder pattern that is designed to return polymorphic types in a specific order. The builder contains a private class that implements one or more interfaces.
 Each interface contains the signature of a method with the return type of the next desired Interface that is required in the building process. This creates an ordered "step by step" builder used to construct the final product. The builder additionally contains a create method that returns a instance of the private class. The private class instance contains a single instance of the object a user wishes to build, and all interface method implementation.
 
-### Types participating in this pattern include:
+### Classes and objects participating in this pattern include:
 
 - **SpaceShipBuilder**
 	- Contains a create method that returns an instance of a private class

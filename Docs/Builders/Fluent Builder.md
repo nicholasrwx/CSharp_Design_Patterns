@@ -5,7 +5,7 @@ This allows you to perform method chaining.
 You can tell if a builder allows for this by checking the return type of the instance methods.
 In OOP this is a common design, and it is called a Fluent Interface.
 
-### Types participating in this pattern include:
+### Classes and objects participating in this pattern include:
 
 - **FluentBuilder**
 	- Provides an fluent interface for continually accessing builder methods to build out the product
