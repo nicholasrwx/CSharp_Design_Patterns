@@ -3,7 +3,7 @@
 A functional builder uses a series of functions to build out an object.
 This builder has several methods that aid in the process of setting up a list of delegates used to build an instance of an object.
 
-### Classes and objects participating in this pattern include:
+### Types participating in this pattern include:
 
 - **Alien**
 	- The Type of object we are going to build.
