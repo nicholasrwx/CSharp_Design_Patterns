@@ -6,7 +6,7 @@ This type of fluent builder allows one fluent builder to inherit from another fl
 This is a very difficult and confusing concept to understand, but it can be done.
 
 
-### Types participating in this pattern include:
+### Classes and objects participating in this pattern include:
 
 - **AbstractProduct** (Base Class)
 	- Keeps track of the representation it creates (Contains a single Instance of the product). Normally the product instance is contained in a builder class. But, in this case with multiple builders, it's a little cleaner to have it exist in a separate class that is inherited by the parent builder.
