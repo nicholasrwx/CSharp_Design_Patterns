@@ -14,6 +14,22 @@
 - [Inner Factory](Docs/Factories/Inner%20Factory.md)
 - [Abstract Factory](Docs/Factories/Abstract%20Factory.md)
 - [Abstract Factory OCP](Docs/Factories/Abstract%20Factory%20OCP.md)
+### Prototypes: 🔴 **```In Progress```**
+- [Copy By Serialization Prototype](Docs/Prototypes/CopyBySerializationPrototype.md)
+- [Copy Constructor Prototype](Docs/Prototypes/CopyConstructorPrototype.md)
+- [Explicit Interface Prototype](Docs/Prototypes/ExplicitInterfacePrototype.md)
+- [ICloneable Prototype](Docs/Prototypes/ICloneablePrototype.md)
+- [Inheritance Prototype](Docs/Prototypes/InheritancePrototype.md)
+### Singletons: 🔴 **```Docs In Progress```**
+- [Singleton](Docs/Singletons/Singleton.md)
+- [Dependency Injection Singleton](Docs/Singletons/DependencyInjectionSingleton.md)
+- [Per Thread Singleton](Docs/Singletons/PerThreadSingleton.md)
+- [Monostate Singleton](Docs/Singletons/MonostateSingleton.md)
+- [Ambient Context Singleton](Docs/Singletons/AmbientContextSingleton.md)
+### Adapters: 🔴 **```Docs In Progress```**
+- [Caching Adapter](Docs/Adapters/CachingAdapter.md)
+- [Vector Raster Adapter](Docs/Adapters/VectorRasterAdapter.md)
+- [Generic Value Adapter](Docs/Adapters/GenericValueAdapter.md)
 ### Composites:
 - [Geometric Shape Composite](Docs/Composites/Geometric%20Shape%20Composite.md)
 - [Neural Network Composite](Docs/Composites/Neural%20Network%20Composite.md)
