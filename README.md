@@ -4,7 +4,7 @@
 
 This repo provides examples for common creational, structural, and behavioral design patterns. The example code in this repo, although may be modified for learning purposes, are not my own and were provided by the course. The documentation below is something I created to accompany the examples for quick reference in the future and testament to what I have learned throughout the course.
 
-### Creational Patterns
+## Creational Patterns
 
 #### Builders:
 - [Fluent Builder](Docs/Builders/Fluent%20Builder.md)
