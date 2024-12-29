@@ -39,6 +39,8 @@ This repo provides examples for common creational, structural, and behavioral de
 - [Caching Adapter](Docs/Adapters/CachingAdapter.md)
 - [Vector Raster Adapter](Docs/Adapters/VectorRasterAdapter.md)
 - [Generic Value Adapter](Docs/Adapters/GenericValueAdapter.md)
+#### Bridge: 🔴 **```Docs In Progress```**
+- [Bridge](Docs/Bridge/Bridge.md)
 #### Composites:
 - [Geometric Shape Composite](Docs/Composites/Geometric%20Shape%20Composite.md)
 - [Neural Network Composite](Docs/Composites/Neural%20Network%20Composite.md)
