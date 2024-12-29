@@ -63,7 +63,7 @@ This repo provides examples for common creational, structural, and behavioral de
 - [ViewModel Proxy](Docs/Proxies/ViewModel%20Proxy.md)
 - [Bit Fragmenting Proxy](Docs/Proxies/Bit%20Fragmenting%20Proxy.md)
 
-## Behavioural Patterns
+## Behavioral Patterns
 
 #### Chains:
 - [Method Chain](Docs/Chains/Method%20Chain.md)
