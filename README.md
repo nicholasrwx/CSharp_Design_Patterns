@@ -35,7 +35,7 @@ This repo provides examples for common creational, structural, and behavioral de
 
 ## Structural Patterns
 
-#### Adapters: 🔴 **```Docs In Progress```**
+#### Adapters:
 - [Caching Adapter](Docs/Adapters/CachingAdapter.md)
 - [Vector Raster Adapter](Docs/Adapters/VectorRasterAdapter.md)
 - [Generic Value Adapter](Docs/Adapters/GenericValueAdapter.md)
