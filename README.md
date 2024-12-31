@@ -2,7 +2,11 @@
 
 ## Overview
 
-This repo provides examples for common creational, structural, and behavioral design patterns. The example code in this repo, although may be modified for learning purposes, are not my own and were provided by the course. The documentation below is something I created to accompany the examples for quick reference in the future and testament to what I have learned throughout the course.
+This repo provides examples for common creational, structural, and behavioral design patterns. The example code in this repo, although may be modified for learning purposes, are not my own and were provided by the online course titled above. The documentation below is something I created to accompany the examples for quick reference in the future and testament to what I have learned throughout the course.
+
+## Gang of Four Design Patterns
+
+Design Patterns: Elements of Reusable Object-Oriented Software, published in 1994, was the original book which introduced a set of solutions to common problems in software development. These patterns are commonly known as the Gang of Four Patterns. Gang of Four referres to the original authors of the book Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides. The GOF patterns are a set of 23 common software design patterns which fall under three main categories: creational, structural, and behavioral.
 
 ## Creational Patterns
 
