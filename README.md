@@ -30,7 +30,7 @@ Design Patterns: Elements of Reusable Object-Oriented Software, published in 199
 - [Explicit Interface Prototype](Docs/Prototypes/ExplicitInterfacePrototype.md)
 - [ICloneable Prototype](Docs/Prototypes/ICloneablePrototype.md)
 - [Inheritance Prototype](Docs/Prototypes/InheritancePrototype.md)
-#### Singletons: 🔴 **```Docs In Progress```**
+#### Singletons:
 - [Singleton](Docs/Singletons/Singleton.md)
 - [Dependency Injection Singleton](Docs/Singletons/DependencyInjectionSingleton.md)
 - [Per Thread Singleton](Docs/Singletons/PerThreadSingleton.md)
