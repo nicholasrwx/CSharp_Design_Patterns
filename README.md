@@ -24,7 +24,7 @@ Design Patterns: Elements of Reusable Object-Oriented Software, published in 199
 - [Inner Factory](Docs/Factories/Inner%20Factory.md)
 - [Abstract Factory](Docs/Factories/Abstract%20Factory.md)
 - [Abstract Factory OCP](Docs/Factories/Abstract%20Factory%20OCP.md)
-#### Prototypes: 🔴 **```Docs In Progress```**
+#### Prototypes:
 - [Copy By Serialization Prototype](Docs/Prototypes/CopyBySerializationPrototype.md)
 - [Copy Constructor Prototype](Docs/Prototypes/CopyConstructorPrototype.md)
 - [Explicit Interface Prototype](Docs/Prototypes/ExplicitInterfacePrototype.md)
